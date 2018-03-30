@@ -1,15 +1,15 @@
 # pixelator_reloaded
 
 Trying to batch convert images? Imagemagick doesn't work out of the box for you? Using elaborate shell seems quirky? 
-This tool may help you... in my specific case, I needed to move the files to a mirrored directory structure after conversion, which seemed to be not possible with ImageMagick (or my lack of understanding ImageMagick). After trying for a while, I decided to hack together a small node cli (Limited bash skills ;-) ) to convert stuff for me. 
+This tool may help you... in my specific case, I needed to move the files to a mirrored directory structure after conversion, which seemed to be not possible with ImageMagick (or my lack of understanding ImageMagick). After trying for a while, I decided to hack together a small node cli (Limited bash skills ;-) ) to convert stuff in parallel for me. 
 
-Maybe this is usefull for others...
+Maybe this is useful for others...
 
 ## Setup:
 
 NOTE: Node 8 >= is required
 
-```javascript
+```bash
 git clone https://github.com/dpittner/pixelator_reloaded.git
 npm install 
 node pixelator.js
@@ -17,7 +17,7 @@ node pixelator.js
 
 Will output something like:
 
-```bash
+```
 Usage: pixelator.js [options]
 
 Options:
@@ -34,4 +34,6 @@ copyright 2018
 
 Missing required argument: s
 ```
+## Example
 
+![Command output](example.png "Command Output")
