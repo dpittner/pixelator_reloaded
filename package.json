@@ -1,0 +1,20 @@
+{
+  "name": "pixelator_reloaded",
+  "version": "1.0.0",
+  "description": "Batch conversion of tif to jpg based on imagemagick",
+  "main": "pixelator.js",
+  "scripts": {
+    "start": "node pixelator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Pittner",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^1.8.0",
+    "es6-promise-pool": "^2.5.0",
+    "fs-extra": "^5.0.0",
+    "imagemagick": "^0.1.3",
+    "klaw": "^2.1.1",
+    "yargs": "^11.0.0"
+  }
+}
